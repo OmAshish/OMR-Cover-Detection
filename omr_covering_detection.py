@@ -8,7 +8,7 @@ Created on Thu May 21 08:51:30 2020
 import numpy as np
 import cv2
 
-image = cv2.imread(r'D:\Projects\omr algorithm\optical-mark-recognition\12.png')
+image = cv2.imread(r'D:\optical-mark-recognition\Things.png')
 
 items = ['Pepperoni','Beef','Mushrooms','Onions']
 image = cv2.resize(image,(600,600))
